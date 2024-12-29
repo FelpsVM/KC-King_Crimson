@@ -39,5 +39,9 @@ Replace YOUR_MINIMUM_ROLE_ID with the ID of the minimum role to make some comman
 ### 3. Bot Commands
 (atual prefix)prefix
 This command shows the bot's atual prefix for interacting with the server. The slash command (/prefix) is also available.
+
 (atual prefix)setprefix
 This command changes the bot's current prefix to the value of the argument. The slash command (/setprefix) is also available.
+
+(atual prefix)kick
+This command remove one member and heva a two arguments: "user" and "reason", the argument "user" is what you want to user from kick, the bot suggests some people from the server, the reason is a argument is optional, if you decide to put it you must put the reason for the kick, but if you decide not to put it it will define the reason by: No reason provided. The slash command (/kick) is also available.
